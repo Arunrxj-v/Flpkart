@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    border: 0px;
+}
+nav{
+    background: rgb(17, 75, 190);
+    margin: 0px;
+}
+nav h1{
+    margin: -5px;
+    color: #fff;
+    padding: 15px 170px;
+    font-weight: bold;
+    
+}
+nav h6{
+    padding: 15px 50px;
+    color: yellow;
+    margin: -15px;
+    padding: 0px 215px;
+    font-weight: bolder;
+}
+.searchbox{
+    margin: -38px;
+    padding: 0px 310px;
+    position: absolute;
+                top: 48px;
+                left: 10px;
+                height: 30px;
+                width: 50px;
+    
+}
+.list{
+    margin: -68px;
+    padding: 0px 17px;
+    padding-left:  1106px;
+}
+.list a{
+   
+    text-decoration: none;
+    color: white;
+    
+    }
+.list ul li{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 900
+}
+.list a:hover{color: yellow;}
+.cart i{
+    color: black;
+
+}
+
+.featurebase .featurebox{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 0px;
+    margin-top: 68px;
+    padding: 0px 130px;
+}
+.featurebase .featureitems{
+    text-align: start;
+    background: white;
+    height: 100%;
+    position: relative;
+}
+.featurebase .featureitems img{
+    width: 50%;
+    height: 53px;
+    background-size: cover;
+    background-position: center;
+}
+.featureitems img:hover{
+  background: grey;
+}
+.details h2{
+    font-size: 16px;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.images {
+  display: flex;
+  width: 100%;
+}
+.images   img {
+  height: 459px;
+  width: 100%;
+  transition: all 0.15s ease;
+}
+.images input {
+  display: none;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  margin-top: -65px;
+}
+.dots label {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid blue 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+}
+.dots label:hover {background:rgb(226, 255, 10) ;}
+#img1:checked ~ .m1 {
+  margin-left: 0;
+}
+#img2:checked ~ .m2 {
+  margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+  margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+  margin-left: -300%;
+}
+#img5:checked ~ .m5 {
+  margin-left: -400%;
+}
+.ownership {
+  background: rgb(17, 75, 190);
+  margin: 0;
+}
+
+
+

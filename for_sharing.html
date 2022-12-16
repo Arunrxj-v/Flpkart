@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakekart</title>
+    <!-- <link rel="stylesheet" href="flip.css"> -->
+    <!-- <script src="myscripts.js"></script> -->
+    <style>
+        body{
+    margin: 0px;
+    border: 0px;
+}
+nav{
+    background: rgb(17, 75, 190);
+    margin: 0px;
+}
+nav h1{
+    margin: -5px;
+    color: #fff;
+    padding: 15px 170px;
+    font-weight: bold;
+    
+}
+nav h6{
+    padding: 15px 50px;
+    color: yellow;
+    margin: -15px;
+    padding: 0px 215px;
+    font-weight: bolder;
+}
+.searchbox{
+    margin: -38px;
+    padding: 0px 310px;
+    position: absolute;
+                top: 48px;
+                left: 10px;
+                height: 30px;
+                width: 50px;
+    
+}
+.list{
+    margin: -68px;
+    padding: 0px 17px;
+    padding-left:  1106px;
+}
+.list a{
+   
+    text-decoration: none;
+    color: white;
+    
+    }
+.list ul li{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 900
+}
+.list a:hover{color: yellow;}
+.cart i{
+    color: black;
+
+}
+
+.featurebase .featurebox{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 0px;
+    margin-top: 68px;
+    padding: 0px 130px;
+}
+.featurebase .featureitems{
+    text-align: start;
+    background: white;
+    height: 100%;
+    position: relative;
+}
+.featurebase .featureitems img{
+    width: 50%;
+    height: 53px;
+    background-size: cover;
+    background-position: center;
+}
+.details h2{
+    font-size: 16px;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.images {
+  display: flex;
+  width: 100%;
+}
+.images   img {
+  height: 459px;
+  width: 100%;
+  transition: all 0.15s ease;
+}
+.images input {
+  display: none;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  margin-top: -65px;
+}
+.dots label {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid blue 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+}
+.dots label:hover {background:rgb(226, 255, 10) ;}
+#img1:checked ~ .m1 {
+  margin-left: 0;
+}
+#img2:checked ~ .m2 {
+  margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+  margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+  margin-left: -300%;
+}
+#img5:checked ~ .m5 {
+  margin-left: -400%;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <h1>Fakekart</h1>
+            <h6>truly fake </h6>
+            <div class="list">
+                <ul>
+                    <a href="#"><li>Login</li></a>
+                    <a href="#"><li>Become a seller</li></a>
+                    <a href="#"><li>About</li></a>
+                   
+                </ul>
+            </div>
+            <div class="cart">
+                <i class="fa-regular fa-cart-shopping"></i>
+            </div>
+            
+           </nav>
+           <div class="searchbox">
+            <input type="searchbox" placeholder="Search for *fake products,brands and more" style="width: 500px; height: 25px" >
+        </div>
+        
+    </div>
+    <section class="featurebase">
+        <div class="featurebox">
+            <div class="featureitems">
+                <img src="img1.webp" alt="">
+                <div class="details">
+                    <h2>Grocery</h2>
+                </div>
+                
+            </div>
+            <div class="featureitems">
+                <a href="https://www.shop4kart.com/product-category/smartphone/"><img src="img2.webp" alt=""></a>
+                <div class="details">
+                    <h2>Mobiles</h2>
+                </div>
+                
+            </div>
+            <div class="featureitems">
+                <img src="img3.webp" alt="">
+                <div class="details">
+                    <h2>Fashion</h2>
+                </div>
+                
+            </div>
+            <div class="featureitems">
+                <img src="img4.webp" alt="">
+                <div class="details">
+                    <h2>Electronics</h2>
+                </div>
+                
+            </div>
+            <div class="featureitems">
+                <img src="img5.webp" alt="">
+                <div class="details">
+                    <h2>Home </h2>
+                </div>
+                
+            </div>
+            <div class="featureitems">
+                <img src="img6.webp" alt="">
+                <div class="details">
+                    <h2>Appliances</h2>
+                </div>
+                
+            </div>
+            <div class="featureitems">
+                <img src="img7.webp" alt="">
+                <div class="details">
+                    <h2>Travel</h2>
+                </div>
+                
+            </div>
+            <div class="featureitems">
+                <img src="img8.webp" alt="">
+                <div class="details">
+                    <h2>Top Offers</h2>
+                </div>
+                
+            </div>
+            <div class="featureitems">
+                <img src="img9.webp" alt="">
+                <div class="details">
+                    <h2>Beauty&Toys</h2>
+                </div>
+                
+            </div>
+            <div class="featureitems">
+                <img src="img10.webp" alt="">
+                <div class="details">
+                    <h2>2-Wheelers</h2>
+                </div>
+                
+            </div>
+        </div>
+
+
+    </section>
+    
+        <div class="slider">
+            <div class="images">
+                <input type="radio" name="slide" id="img1" checked>
+                <input type="radio" name="slide" id="img2">
+                <input type="radio" name="slide" id="img3">
+                <input type="radio" name="slide" id="img4">
+                <input type="radio" name="slide" id="img5">
+                <img src="slide11.jpg" class="m1"  alt="img1">
+                <img src="slide12.jpg" class="m2" alt="img2">
+                <img src="slide13.jpg" class="m3" alt="imag3">
+                <img src="slide14.jpg" class="m4" alt="img4">
+                <img src="slide15.jpg" class="m5" alt="img5">
+            </div>
+            <div class="dots">
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+                <label for="img4"></label>
+                <label for="img5"></label>
+            </div>
+        </div>
+   
+  
+    
+</body>
+</html>
